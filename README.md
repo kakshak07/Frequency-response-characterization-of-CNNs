@@ -1,4 +1,11 @@
 # Frequency-response-characterization-of-CNNs
+Numerous recent and popular publications on deep learning investigate specific short-comings and biases of CNN models. Often, such short-comings are closely related to the distribution of frequency components in the training data, or the frequency response of the convolutional layers in the network. For example, many adversarial attacks can be classified based on their spectral density, and may be ameliorated by suppressing high frequencies in the input. Similarly, smoothing the output of convolutional layers to remove aliasing effects consistently improves the performance of CNNs.
+
+In this project, we aim to find concrete links between input statistics, learned convolutional filter statistics and classification performance. Specifically, we will first investigate the anatomy of frequency responses in different, existing CNN architectures and identify characteristics which lead to robust and improved classification performance. Driving from previous work we would eventually like to develop a learning scheme based directly on optimizing the frequency response characteristics of different layers, by using convolutional filters which act as bandpass filters.
+
+## Structures of the Folders
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 Folder Structure Explanation:
 
