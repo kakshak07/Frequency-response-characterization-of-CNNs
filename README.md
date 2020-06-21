@@ -19,7 +19,8 @@ Similar is the structure in Fashion_MNIST folder
 <br>
 
 There is file Get_input_data_ffts_v2 which contains FFT transform for CIFAR10 and MNIST datasets.<br><br>
-
+Select 0 for getting Fashion_MNIST Fourier Transform.<br><br>
+Select 1 for getting CIFAR10 Fourier Transform.<br><br>
 FFT transform is performed and average is taken for each category with plotting of images.
 <br><br>
 
