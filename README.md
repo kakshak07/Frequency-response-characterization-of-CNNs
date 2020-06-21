@@ -13,7 +13,7 @@ b. Gaussian Filter with Sigma = 2<br>
 c. Gaussian Filter with Sigma = 4<br>
 d. Gaussian Filter subtracting from orginal image (sigma = 2)<br>
 e. Gaussian Filter subtracting from orginal image (sigma = 4)<br>
-
+f. CIFAR-10 with Fourier Transform and visualizing its frequency of trained model.<br>
 Similar is the structure in Fashion_MNIST folder
 
 <br>
