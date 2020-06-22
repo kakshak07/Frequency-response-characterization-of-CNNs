@@ -34,7 +34,6 @@ FFT transform is performed and average is taken for each category with plotting 
 
 In all the obtained validation accuracy and test accuracy the model trained using ResNet18 or ResNet20 model. 
 
-| Left-aligned | CIFAR-10 -Test Accuracy | CIFAR-10 Validation Accuracy | Fashion-MNIST- Test Accuracy | Fashion-MNIST Validation Accuracy |
 
 
 | Dataset and Variations in Model | CIAR-10(Test Accuracy) | CIFAR-10(Validation Accuracy) | Fashion-MNIST(Test Accuracy) | Fashion-MNIST Validation Accuracy |
@@ -48,6 +47,8 @@ In all the obtained validation accuracy and test accuracy the model trained usin
 | ResNet-18(Original Image - Gaussian Blur  Sigma=12)     |  -       | -    |    89.17%  | 89.31%      |
 | ResNet-18(Original Image - Gaussian Blur  Sigma=20)     |  -       |  -     |   89.01   | 89.01%      |
 
+
+In some of the cases accuracy is very low because th input has been passed through different filters like Gaussian filters with high sigma values which kind of Blur the image hence decreasing the features of the input image and thus reducing the accuracy, in last 4 rows of the results original image is subtracted from the image obtained by applying gaussian filters with different sigma values. 
 
 For any doubts in this project please feel free to contact me on my mail Id: kakshak@gmail.com 
 
