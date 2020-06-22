@@ -29,5 +29,27 @@ There is file Get_input_data_ffts_v2 which contains FFT transform for CIFAR10 an
 Select 0 for getting Fashion_MNIST Fourier Transform.<br><br>
 Select 1 for getting CIFAR10 Fourier Transform.<br><br>
 FFT transform is performed and average is taken for each category with plotting of images.
+
+## Experimental Results
+
+In all the obtained validation accuracy and test accuracy the model trained using ResNet18 or ResNet20 model. 
+
+| Left-aligned | CIFAR-10 -Test Accuracy | CIFAR-10 Validation Accuracy | Fashion-MNIST- Test Accuracy | Fashion-MNIST Validation Accuracy |
+
+
+| Dataset and Variations in Model | CIAR-10(Test Accuracy) | CIFAR-10(Validation Accuracy) | Fashion-MNIST(Test Accuracy) | Fashion-MNIST Validation Accuracy |
+| :---         |     :---:      |     :---:      |     :---:      |          ---: |
+| ResNet-18   | 92.79%     | 92.16%     | 92.04%     | 92.04%    |
+| ResNet-18(FFT Transform)     | 10.29%       | 9.89%     | 88.38%     | 88.38%      |
+| ResNet-18(Gaussian Blur  Sigma=2)     | 78.25%       | 78.25%     | 91.54%     | 91.54%      |
+| ResNet-18(Gaussian Blur  Sigma=4)     | 59.13%       | 59.13%    | 88.87%     | 88.87%      |
+| ResNet-18(Original Image - Gaussian Blur  Sigma=2)     | 10.00%       | 9.52%     | 88.38%     | 88.38%      |
+| ResNet-18(Original Image - Gaussian Blur  Sigma=4)     | 10.00%       | 9.52%     | 88.38%     | 88.38%      |
+| ResNet-18(Original Image - Gaussian Blur  Sigma=12)     |  -       | -    |    89.17%  | 89.31%      |
+| ResNet-18(Original Image - Gaussian Blur  Sigma=20)     |  -       |  -     |   89.01   | 89.01%      |
+
+
+For any doubts in this project please feel free to contact me on my mail Id: kakshak@gmail.com 
+
 <br><br>
 
