@@ -37,7 +37,7 @@ In all the obtained validation accuracy and test accuracy the model trained usin
 
 
 | Dataset and Variations in Model | CIAR-10(Test Accuracy) | CIFAR-10(Validation Accuracy) | Fashion-MNIST(Test Accuracy) | Fashion-MNIST Validation Accuracy |
-| :---         |     :---:      |     :---:      |     :---:      |          ---: |
+| :---         |     :---:      |     :---:      |     :---:      |       :---: |
 | ResNet-18   | 92.79%     | 92.16%     | 92.04%     | 92.04%    |
 | ResNet-18(FFT Transform)     | 10.29%       | 9.89%     | 88.38%     | 88.38%      |
 | ResNet-18(Gaussian Blur  Sigma=2)     | 78.25%       | 78.25%     | 91.54%     | 91.54%      |
